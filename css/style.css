@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'segoe uI',Tahoma,Geneva,Verdana,sans-serif ;
+}
+*: ::placeholder {
+        color: aqua;
+}
+.container {
+    width:100% ;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: ;
+    background repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    width: 35%;
+    padding: 80px 40px;
+    border: 1px solid aqua;
+    border-radius: 20px ;
+    overflow: hidden;
+    position: sticky;
+}
+.card .signup {
+    margin-top: 20px;
+    color: aqua;
+}
+.card .signup a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 600;
+}
+@media screen ad (max-width: 768px) {
+    .card {
+        width: 80%;
+    }
+}
+.card: :before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    filter: blur (6px);
+    opacity: 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.card .form input {
+    width: 100%;
+    margin-top: 12px;
+    outline: none;
+    padding: 14px 20px;
+    background-color: transparent;
+    color: aqua;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
+.card .form .act {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.card .form .act a{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 600;
+}
+.card .form button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: aqua;
+    color: aqua;
+    font-weight: 800;
+    cursor: pointer;
+}
